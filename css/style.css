@@ -1,0 +1,260 @@
+.branding a {
+  font-size: 30px;
+  font-weight: 700;
+  /* margin-right: 150px; */
+}
+
+.nav-tab div ul li {
+  padding-right: 20px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.navbar {
+  background-color: rgb(36, 75, 156);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  padding: 10px 10px;
+}
+
+/* .nav-item a {
+  border-radius: 10px;
+  border: 1px solid #e8e8e8;
+  transition: all 0.3s;
+  box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+  transition: all 0.5s;
+}
+
+.nav-item a:hover {
+  border: 1px solid white;
+  border-radius: 10px;
+  box-shadow: 4px 4px 12px #c5c5c5, -4px -4px 12px #ffffff;
+} */
+
+.nav-item a:active {
+  border-radius: 10px;
+  transform: translateY(1px);
+  box-shadow: 4px 4px 12px #adadad, 1px -4px 12px #ffffff;
+}
+
+.main {
+  background-size: cover;
+  height: 83.5vh;
+}
+
+.content-bg {
+  color: #adadad00;
+  color: #ffffff;
+  width: 50%;
+  background: linear-gradient(90deg, #000000, #00000000);
+  position: relative;
+  height: 85vh;
+  opacity: 0.7;
+  /* border-radius: 10px; */
+  /* margin-left: -15px; */
+}
+
+.content {
+  position: absolute;
+  color: rgb(231, 231, 231);
+  width: 50%;
+  margin-top: 100px;
+  padding-left: 50px;
+}
+
+.content h1 {
+  padding-bottom: 25px;
+}
+
+.content p {
+  padding-bottom: 25px;
+  width: 50%;
+}
+
+.end {
+  height: 100px;
+}
+
+.foot {
+  position: absolute;
+  /* top: ; */
+  right: 0;
+  opacity: 0.9;
+  /* /* position: absolute; */
+  /* top: 0; */
+  /* /* right: 0; */
+  /* background-color: rgb(255, 255, 255); */
+  /* opacity: 0.8; */
+  /* width: fit-content; */
+  /* margin-left: 500px;
+  margin-top: 110px; */
+  border-radius: 5px;
+}
+
+.foot a {
+  float: right;
+  font-size: 20px;
+  padding-right: 20px;
+  color: #4e4e4e;
+  transition: 0.1s;
+  padding-top: 10px;
+}
+
+.foot a:hover {
+  color: rgb(0, 0, 0);
+}
+
+.foot .p {
+  color: #fdf7f0;
+}
+
+.end {
+  background-color: #ffffff;
+}
+
+.end div {
+  background: #ffffff;
+  margin-top: 10px;
+  /* margin-top: 15px; */
+  border-radius: 5px;
+  /* margin-bottom: 15px; */
+  font-size: 20px;
+  /* margin-right: 80px; */
+  /* margin-left: 80px; */
+  padding: 0 70px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.end div i {
+  padding: 5px;
+  font-size: 25px;
+  color: rgb(0, 115, 255);
+}
+
+.end div:hover {
+  box-shadow: 4px 10px 12px #a7a7a7;
+  cursor: pointer;
+}
+
+.end a {
+  position: absolute;
+  /* padding: 5px; */
+  text-decoration: none;
+  right: 25px;
+  bottom: 10px;
+  ;
+
+}
+
+/* Chatbot Changes */
+.rwc-embed__thumb {
+  align-items: center;
+  justify-content: right !important;
+  width: 250px !important;
+  height: 50px !important;
+  cursor: pointer;
+  border-top-left-radius: 5px !important;
+  border-top-right-radius: 5px !important;
+  border-bottom-left-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+  background-color: rgb(235, 235, 235) !important;
+}
+
+.rwc-embed {
+  bottom: 0 !important;
+  right: 10px !important;
+}
+
+.rwc-embed--anim-none:before {
+  content: "Chat Now" !important;
+  color: black !important;
+  width: inherit;
+  font-weight: bolder;
+  position: fixed;
+  right: 75px;
+}
+
+/* .header {
+  height: 70px !important;
+}
+
+.rwc-embed .header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: 2px -1px 12px #254099;
+  padding: 0 !important;
+}
+
+.header img {
+  padding: 0 !important;
+  margin: 0 !important;
+  border-radius: 0 !important;
+  width: 90px !important;
+  height: 85px !important;
+  position: absolute;
+  top: 1px;
+  left: 0;
+}
+
+.logo {
+  position: absolute;
+  top: 35px;
+  left: 125px;
+  font-size: 25px !important;
+  font-weight: bold;
+} */
+
+/* RWC Button Changes */
+/* .rwc-button--outlined.rwc-button--primary {
+  color: #244B9C !important;
+}
+
+.rwc-button {
+  border: 1px #244B9C solid !important;
+}
+
+.rwc-button:hover {
+  color: white !important;
+  background-color: #244B9C !important;
+  opacity: 1 !important;
+}
+
+.rwc-button--filled.rwc-button--primary {
+  background-color: #244B9C !important;
+}
+
+.inp form .nam input#name {
+  border: 1px #6c757d solid !important;
+}
+
+.inp form .nam input#email {
+
+  border: 1px #6c757d solid !important;
+}
+
+.inp form .nam input#submit {
+  border: none !important;
+  padding-top: 5px !important;
+}
+
+button#phonebtn { */
+/* width: 26px; */
+/* color: white;
+  border: none !important;
+  border-radius: 2px !important;
+  height: 25px !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  padding-top: 0 !important;
+}
+
+#countryCode {
+  height: 25px !important;
+}
+
+select {
+  line-height: normal;
+} */
